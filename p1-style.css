@@ -1,6 +1,75 @@
-body {
-    margin: 0
+@font-face {
+    font-family: Roboto-Lightimport;
+    src: url(fonts/Roboto-Light.ttf)
 }
-.content {
+
+@font-face {
+    font-family: Roboto-Regularimport;
+    src: url(fonts/Roboto-Regular.ttf)
+}
+
+.container {
     
+    width:1020px;
+    margin: auto;
+}
+
+
+
+.content {
+  
+    display: flex;
+    
+}
+
+.lift-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 507px;
+    margin: 40px;
+}
+
+.right-side {
+    
+    font-family: Roboto-Lightimport;
+    margin-top: 8em;
+}
+
+.pic {
+    
+    width: 490px;
+}
+
+.quote {
+    font-family: Roboto-Regularimport;
+    font-size: 30px;
+    color:rgb(34, 103, 171);
+    text-align: end;
+    margin-top: 1.5em;
+}
+
+img {
+    width: 100%
+}
+.paragragh{
+    font-size:16px;
+    color: rgb(109, 108, 108);
+    font-family: Roboto-Lightimport;
+}
+h1{
+    color:rgb(34, 103, 171);
+}
+.quotation{
+    font-size: 35px;
+    color: rgb(179, 179, 179);
+    
+}
+
+#right-quote {
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.quote p{
+    margin: 0px;
 }
