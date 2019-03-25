@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Roboto-Lightimport;
+    src: url(fonts/Roboto-Light.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Regularimport;
+    src: url(fonts/Roboto-Regular.ttf)
+}
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(14, 124, 228);
+    height: 10px;
+    width: 100%;
+}
+.img {
+    max-width: 1369px;
+}
+.mid-box {
+    margin-bottom: 3em;
+}
+.buttom-box {
+    display: flex;
+    justify-content: space-around;
+}
+.icon {
+    width: 50px;
+}
+.icon-box {
+    margin-bottom: -1.5em;
+    text-align: center;
+}
+.numbers {
+    font-weight: 100;
+    color: gray;
+    font-size: larger;
+    margin-bottom: -.5em;
+}
+.buttom-box .text {
+    color: mediumslateblue;
+    text-align: center;
+}
